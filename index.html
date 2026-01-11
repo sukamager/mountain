@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Portfolio Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="bg-decoration">
+    <div class="bg-circle"></div>
+    <div class="bg-circle"></div>
+    <div class="bg-circle"></div>
+    <div class="bg-circle"></div>
+    <div class="bg-circle"></div>
+  </div>
+
+  <header id="home">
+    <div class="profile-image-container">
+      <div class="profile-glow"></div>
+      <div class="profile-border"></div>
+      <div class="profile-image">
+        <img src="img/day.jpeg" alt="Profile Picture">
+      </div>
+    </div>
+    <div class="hero-badge">
+      <i class="fa-solid fa-circle"></i>
+      Available for projects
+    </div>
+    <h1>ilulsukamager</h1>
+    <p>Naik pelan, nikmati proses, dan belajar dari setiap langkah.</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/_ilulmagerbgt/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/sukamager" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.tiktok.com/@ilulsukamager" title="LinkedIn"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+  </header>
+
+  <section id="about" class="fade-in">
+    <div class="section-header">
+      <span class="section-tag">About</span>
+      <h2>Thing i've been learn from Mountain</h2>
+    </div>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          Saya punya hobi mendaki gunung. Buat saya, mendaki bukan cuma soal sampai di puncak, tapi tentang proses, persiapan, dan cerita di balik perjalanan.
+        <p>
+          Lewat pendakian, saya terbiasa belajar disiplin, mengatur waktu, dan bertanggung jawab, baik ke diri sendiri maupun ke tim. Semua pengalaman ini pelan-pelan membentuk cara saya berpikir dan bersikap, termasuk saat belajar dan mengerjakan berbagai hal.
+        </p>
+    </div>
+  </section>
+
+
+<section id="projects" class="portfolio">
+  <h1>Gallery</h1>
+  <p class="subtitle">
+    Setiap pendakian selalu punya cerita dan pelajaran. Dari alam, saya belajar tentang proses, ketekunan, dan tanggung jawab.
+  </p>
+
+  <!-- Sub Tabs -->
+  <div class="sub-tabs">
+    <button class="sub-tab active" data-category="project">Mountain</button>
+    <button class="sub-tab" data-category="design">Girl</button>
+    <button class="sub-tab" data-category="editing">Network</button>
+  </div>
+
+  <!-- Mobile Bottom Navbar -->
+<nav class="mobile-nav">
+  <a href="#home" class="nav-item active">
+    <i class="fa-solid fa-house"></i>
+    <span>Home</span>
+  </a>
+  <a href="#about" class="nav-item">
+    <i class="fa-solid fa-user"></i>
+    <span>About</span>
+  </a>
+  <a href="#projects" class="nav-item">
+    <i class="fa-solid fa-briefcase"></i>
+    <span>Projects</span>
+  </a>
+  <a href="#contact" class="nav-item">
+    <i class="fa-solid fa-envelope"></i>
+    <span>Contact</span>
+  </a>
+</nav>
+
+  <!-- Dynamic Cards -->
+  <div class="card-container" id="cardContainer"></div>
+</section>
+<footer id="contact">
+    <h2 style="margin-bottom: 12px; font-size: 28px;">Motivation</h2>
+    <p>"Seperti 3726 mdpl, selalu butuh waktu yang lama untuk mendapatkan sesuatu yang indah"</p>
+    <div class="socials" style="justify-content: center; margin: 32px 0;">
+      <a href="https://www.instagram.com/_ilulmagerbgt/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/sukamager" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.tiktok.com/@ilulsukamager" title="LinkedIn"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+    <p style="margin-top: 32px; opacity: 0.6;">© 2026 • ilulsukamager. All rights reserved.</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
