@@ -32,12 +32,12 @@ const data = {
       desc:"",
     },
     {
-      img: "img/girl3.jpg",
+      img: "img/girl6.jpg",
       title:"",
       desc:"",
     },
     {
-      img: "img/girl6.jpg",
+      img: "img/girl3.jpg",
       title:"",
       desc:"",
     }
@@ -157,3 +157,4 @@ mobileItems.forEach(item => {
     document.querySelectorAll('.fade-in').forEach(el => {
       observer.observe(el);
     });
+
