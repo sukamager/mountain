@@ -12,7 +12,7 @@ const data = {
     {
       img: "img/day2.jpeg",
       title: "Juang?",
-      desc: "gunung mengajarkan bahwa keindahan tak pernah datang tanpa perjuangan."
+      desc: "gunung mengajarkan bahwa keindahan tak pernah datang tanpa perjuangan🍃."
     },
     {
       img: "img/day3.jpeg",
@@ -22,7 +22,7 @@ const data = {
     {
       img: "img/day5.jpeg",
       title: "Berani?",
-      desc: "Ambil resikonya maka pasti akan merasakan hasil jerih payahnya."
+      desc: "Ambil resikonya maka pasti akan merasakan hasil jerih payahnya🍃."
     }
   ],
   design: [
@@ -107,6 +107,24 @@ renderCards("project");
         navbar.classList.remove('scrolled');
       }
     });
+mobileItems.forEach(item => {
+  item.addEventListener("click", () => {
+    mobileItems.forEach(i => i.classList.remove("active"));
+    item.classList.add("active");
+
+    item.animate(
+      [
+        { transform: "translateY(-6px) scale(0.95)" },
+        { transform: "translateY(-6px) scale(1)" }
+      ],
+      {
+        duration: 220,
+        easing: "cubic-bezier(.22,.61,.36,1)"
+      }
+    );
+  });
+});
+
 
     // Smooth Scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
