@@ -29,17 +29,17 @@ const data = {
     {
       img: "img/girl.jpg",
       title:"",
-      desc:"",
+      desc:"HIGH-ANGLE Satu Frame, Banyak Cerita",
     },
     {
       img: "img/girl6.jpg",
       title:"",
-      desc:"",
+      desc:"WIDE-ANGLE Yang Penting Bukan Belanjanya",
     },
     {
       img: "img/girl7.jpg",
       title:"",
-      desc:"",
+      desc:"EYE-ANGLE Dua Senyum Satu Cerita",
     }
   ],
   editing: [
