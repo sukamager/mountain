@@ -15,12 +15,12 @@ const data = {
       desc: "gunung mengajarkan bahwa keindahan tak pernah datang tanpa perjuangan🍃."
     },
     {
-      img: "img/day3.jpeg",
+      img: "img/day7.jpeg",
       title: "Makna?",
       desc: "Setiap gunung tidak berjanji memberikan keindahan, tapi setiap gunung pasti memberikan makna di setiap perjalanan🍃."
     },
     {
-      img: "img/day5.jpeg",
+      img: "img/day8.jpeg",
       title: "Berani?",
       desc: "Ambil resikonya maka pasti akan merasakan hasil jerih payahnya🍃."
     }
@@ -37,7 +37,7 @@ const data = {
       desc:"",
     },
     {
-      img: "img/girl3.jpg",
+      img: "img/girl7.jpg",
       title:"",
       desc:"",
     }
